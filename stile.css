@@ -1,12 +1,10 @@
-
 html {
     font-size: 62.5%;
-    /* 1rem = 10px */
 }
 html {
     width: 100%;
     height: 100%;
-    background: linear-gradient(325deg,  #000000 0%,#ff0000 50%,#000000 100%);
+    background: linear-gradient(325deg,  #000000 0%,#ffffff 50%,#000000 100%);
     font-family: Fredoka;
 }
 
@@ -22,7 +20,7 @@ html {
 .container {
     display: flex;
     position: relative;
-    height: 79.3%;
+    height: 100%;
 }
 
 .section {
@@ -46,9 +44,11 @@ html {
 }
 
 .flag {
-    width: 60%;
+    width: 50%;
     position: absolute;
-    margin-top: -3%;   
+    margin-top: 8%;
+    border: 1px solid #aaa;
+    margin-bottom: 20%;
 }
 
 #optionhalf {
@@ -58,7 +58,7 @@ html {
 }
 
 .label {
-    font-size: 11rem;
+    font-size: 2rem;
 }
 
 .options {
@@ -71,7 +71,7 @@ html {
 }
 
 .option {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 #alert {
@@ -107,6 +107,7 @@ html {
     margin: 1.5rem;
     text-align: center;
 }
+
 .card {
     padding: 40px;
     margin: 20vh auto;
@@ -130,3 +131,17 @@ html {
 .button:hover {
     background-color: rgb(46, 150, 74);
 }
+/* 
+img {
+    height: 100%;
+    width: 100%
+}
+
+.box{
+    width: 30%;
+    margin-left: -100px;
+    margin-right: 154px;
+    margin-top: 65px;
+    height: 200px;
+    border: 1px dashed #38c3f5;
+} */
